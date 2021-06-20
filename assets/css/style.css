@@ -93,6 +93,7 @@ nav .menu .contact-btn:hover {
   color: var(--White);
   text-transform: uppercase;
   text-align: center;
+  background-position: center;
 }
 
 .hero h1 {
@@ -104,7 +105,7 @@ nav .menu .contact-btn:hover {
 .description {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 70vh 70vh 80vh;
+  grid-template-rows: 68vh 68vh 81vh;
 }
 
 .description img {
@@ -335,7 +336,6 @@ footer .attribution {
   }
 
   .hero {
-    background-position: center;
     min-height: 90vh;
     padding: 8em 0 0 0;
   }
@@ -395,7 +395,6 @@ footer .attribution {
 @media (max-width: 516px) {
   .hero {
     background-image: url("../images/mobile/image-header.jpg");
-    background-position: center;
     min-height: 80vh;
     padding: 8em 0 0 0;
   }
